@@ -1,0 +1,158 @@
+body{
+    --primary: #376e83;
+    --success: #000;
+    background-image: url(slide1.jpg);
+    background-size: cover;
+}
+body * {
+    font-family: Vollkorn !important;
+}
+.card-body{
+}
+.mt-5{
+    margin-top: 5rem!important;
+}
+.text-al-web-center{
+    text-align: -webkit-center;
+}
+.text-al-justify{
+    text-align: justify;
+}
+.g-font {
+    font-family: Pattaya !important;
+}
+.all-body{
+    overflow: inherit!important;
+}
+
+.for-font_sht{
+    text-align: -webkit-center;
+    width: 5rem;
+}
+.text-footer{
+    color: #c3c3c3;
+}
+.page-footer img{
+    max-width: 7rem;
+    min-width: 2.6rem;
+    max-height: 2.2rem;
+}
+.list-unstyled {}
+.centering {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+/*.brand-block {
+    height: 50px;
+    width: 50px;
+    top: 0;
+    box-sizing: content-box;
+    position: absolute;
+    left: 14px;
+    display: block;
+    top: 0;
+    width: 50%;
+    z-index: 1;
+    min-width: 160px;
+}
+*/
+.brand-block img {
+    width: 75px;
+    border-radius: 50%;
+    overflow: visible;
+    margin-top: -31px;
+    margin-left: -19px;
+    overflow: visible;
+    margin-bottom: -32px;
+    box-shadow: 0 8px 10px rgba(159, 90, 12, 0.13);
+    box-sizing: content-box;
+}
+
+.btn {
+    /* по-умолчанию для <button>, но пригодится для <a> */
+    display: inline-block;
+    text-align: center;
+    /* создаём маленькие отступы, если кнопки перенесутся на две строки */
+    margin: 2px 0;
+
+    /* невидимая граница (понадобится для цвета при наведении/фокусе) */
+    border: solid 1px transparent;
+    border-radius: 2px;
+
+    /* размер строится из текста и отступов (без width/height) */
+    padding: 1px !important;
+
+    /* убедитесь, что достаточно контраста! */
+    color: #e0e0e0;
+}
+
+
+/* инвертируем цвета при наведении */
+.btn:hover {
+    text-shadow:0px 0px 1px #376e83;
+    color: #000000;
+}
+
+.btn.active {
+    text-shadow:0px 0px 1px #662700;
+    color: #662700;
+}
+/* Firefox: сбрасываем внутреннюю границу при фокусе */
+.btn::-moz-focus-inner {
+    border: none;
+}
+
+/* убеждаемся, что есть видимые границы при фокусе */
+.btn:focus {
+    outline: none;
+}
+
+/* скрываем фокусные стили, если используется не клавиатура */
+.js-focus-visible .btn:focus:not(.focus-visible) {
+    box-shadow: none;
+}
+
+
+.custom-btn_filter{
+
+}
+
+.text-danger {
+    display: none;
+}
+.btn-success{
+    padding: 0.4rem!important;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-success:hover{
+    padding: 0.4rem!important;
+    border-radius: 5px;
+    color: white;
+}
+.btn-filter {
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    text-shadow:0px 0px 1px #3a3a3a;
+}
+
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+.bd-example {
+
+  top: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 5px; /* Some padding */
+}
